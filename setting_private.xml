@@ -16,7 +16,7 @@
     <mirror>
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://34.125.180.159:8081/repository/maven-public</url>
+      <url>https://8081-port-c329aa520cb34308.labs.kodekloud.com/repository/java-proxy-repo/</url>
     </mirror>
   </mirrors>
   <profiles>
