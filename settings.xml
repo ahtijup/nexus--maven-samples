@@ -148,10 +148,10 @@ under the License.
      | for inheritance and direct lookup purposes, and must be unique across the set of mirrors.
      |
     <mirror>
-      <id>mirrorId</id>
-      <mirrorOf>repositoryId</mirrorOf>
-      <name>Human Readable Name for this Mirror.</name>
-      <url>http://my.repository.com/repo/path</url>
+      <id>nexus</id>
+      <mirrorOf>*</mirrorOf>
+      <name>java-proxy-repo</name>
+      <url>https://8081-port-c329aa520cb34308.labs.kodekloud.com/repository/java-proxy-repo/</url>
     </mirror>
      -->
   </mirrors>
